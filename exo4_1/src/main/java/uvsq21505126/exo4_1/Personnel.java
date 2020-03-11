@@ -3,7 +3,7 @@ package uvsq21505126.exo4_1;
 import java.time.LocalDateTime;
 import java.util.*;
 
-public class Personnel {
+public class Personnel implements Groupe{
 	private final String nom;
 	private final String prenom;
 	private final String fonction;
@@ -36,5 +36,10 @@ public class Personnel {
 		this.fonction = builder.fonction;
 		this.date = builder.date;
 		this.num_tel = builder.num_tel;
+	}
+
+	public void print() {
+		System.out.println("Personnel");
+		
 	}
 }

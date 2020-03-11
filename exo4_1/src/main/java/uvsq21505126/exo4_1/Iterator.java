@@ -4,9 +4,3 @@ public interface Iterator {
 	boolean hasNext();
 	public Object next();
 }
-
-
-//for (Iterator<String>> i = ArrayList.iterator(); i.hasNext(); ) {
-//	String element = i.next();
-//}
-//}
